@@ -1,0 +1,9 @@
+{
+  "name": "nodejs-as-windows-service",
+  "version": "0.1.0",
+  "main": "app.js",
+  "description": "A small NodeJs programm to install as a windows service",
+  "dependencies": {    
+	  "node-windows": "^0.1.11"
+  }
+}
