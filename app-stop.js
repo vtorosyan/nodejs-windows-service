@@ -7,7 +7,7 @@ var svc = new Service({
   script: 'app.js'
 });
 
-svc.on('uninstall',function(){  
+svc.on('uninstall',function() {  
   console.log('Uninstalling the ' + svc.name + ' service has completed');
 });
 
