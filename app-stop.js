@@ -2,7 +2,7 @@ var Service = require('node-windows').Service;
 
 // Init the service
 var svc = new Service({
-  name:'Windows Custom Service',
+  name:'Node.js Windows Custom Service',
   description: 'Starts sample app as a windows service',
   script: 'app.js'
 });
